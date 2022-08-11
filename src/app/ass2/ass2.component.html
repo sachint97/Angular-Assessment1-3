@@ -1,0 +1,6 @@
+<div class='container-md'>
+    <input type="text"  [(ngModel)]="userName" class="form-control form-control-lg " placeholder="Enter the text "><br>
+    <h4>{{userName}}</h4>
+    <button class="btn btn-primary" (click)="resetString()" [disabled]="checkCondition()">Reset</button>
+</div>
+
